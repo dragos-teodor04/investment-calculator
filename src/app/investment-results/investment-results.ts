@@ -1,8 +1,8 @@
 import { Component, Input, input } from '@angular/core';
-
+import { CurrencyPipe } from '@angular/common';
 @Component({
   selector: 'app-investment-results',
-  imports: [],
+  imports: [CurrencyPipe],
   templateUrl: './investment-results.html',
   styleUrl: './investment-results.css',
 })
